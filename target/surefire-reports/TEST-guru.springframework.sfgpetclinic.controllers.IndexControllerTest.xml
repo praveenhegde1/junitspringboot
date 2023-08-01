@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="guru.springframework.sfgpetclinic.controllers.IndexControllerTest" time="0.145" tests="12" errors="0" skipped="8" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="E:\Training-Codes\junit\testing-junit5-mockito\target\test-classes;E:\Training-Codes\junit\testing-junit5-mockito\target\classes;C:\Users\user\.m2\repository\javax\validation\validation-api\2.0.1.Final\validation-api-2.0.1.Final.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.3.1\junit-jupiter-api-5.3.1.jar;C:\Users\user\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\user\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\user\.m2\repository\org\junit\platform\junit-platform-commons\1.3.1\junit-platform-commons-1.3.1.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.3.1\junit-jupiter-params-5.3.1.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.3.1\junit-jupiter-engine-5.3.1.jar;C:\Users\user\.m2\repository\org\junit\platform\junit-platform-engine\1.3.1\junit-platform-engine-1.3.1.jar;C:\Users\user\.m2\repository\org\assertj\assertj-core\3.11.1\assertj-core-3.11.1.jar;C:\Users\user\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\user\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Users\user\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\user\AppData\Local\Temp\surefire6683587344298014810\surefirebooter2741203235137923869.jar C:\Users\user\AppData\Local\Temp\surefire6683587344298014810 2023-08-01T09-56-54_678-jvmRun1 surefire2321932492518524109tmp surefire_014295307517534317631tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="E:\Training-Codes\junit\testing-junit5-mockito\target\test-classes;E:\Training-Codes\junit\testing-junit5-mockito\target\classes;C:\Users\user\.m2\repository\javax\validation\validation-api\2.0.1.Final\validation-api-2.0.1.Final.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.3.1\junit-jupiter-api-5.3.1.jar;C:\Users\user\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\user\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\user\.m2\repository\org\junit\platform\junit-platform-commons\1.3.1\junit-platform-commons-1.3.1.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.3.1\junit-jupiter-params-5.3.1.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.3.1\junit-jupiter-engine-5.3.1.jar;C:\Users\user\.m2\repository\org\junit\platform\junit-platform-engine\1.3.1\junit-platform-engine-1.3.1.jar;C:\Users\user\.m2\repository\org\assertj\assertj-core\3.11.1\assertj-core-3.11.1.jar;C:\Users\user\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\user\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\user"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-04-18"/>
+    <property name="java.home" value="C:\Users\user\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="E:\Training-Codes\junit\testing-junit5-mockito"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\user\AppData\Local\Temp\surefire6683587344298014810\surefirebooter2741203235137923869.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.7+7"/>
+    <property name="user.name" value="user"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.7+7"/>
+    <property name="localRepository" value="C:\Users\user\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\user\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.7"/>
+    <property name="user.dir" value="E:\Training-Codes\junit\testing-junit5-mockito"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="C:\Users\user\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/user/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502/jre/bin/server;C:/Users/user/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502/jre/bin;C:\Python310\Scripts\;C:\Python310\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Python38-32\Scripts\;C:\Program Files (x86)\Python38-32\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files\Python38\Scripts\;C:\Program Files\Python38\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.11;E:\TRAINING-Materials\openshift-origin-client-tools-v3.11.0-0cbc58b-windows;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\PROGRA~2\Groovy\GROOVY~1.0\bin;C:\Users\user\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.8;D:\spark\spark-3.2.1-bin-hadoop3.2-scala2.13\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\PuTTY\;C:\Users\user\AppData\Roaming\Python\Python38\Scripts;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;D:\spark\spark-3.2.1-bin-hadoop3.2-scala2.13;D:\spark\spark-3.2.1-bin-hadoop3.2-scala2.13\bin;D:\spark\winutils-master\hadoop-3.2.0;D:\spark\winutils-master\hadoop-3.2.0\bin;D:\spark\winutils-master\hadoop-3.2.1;D:\spark\winutils-master\hadoop-3.2.1\bin;D:\spark\winutils-master\hadoop-3.2.2\bin;D:\spark\winutils-master\hadoop-3.2.2;E:\Training-Codes\golang\sonar-scanner\bin;C:\php;C:\composer;E:\sonar-scanner\bin;D:\apache-jmeter-5.2.1\bin;C:\Program Files\Java\jdk-11.0.11\bin;C:\Program Files\Java\jdk-11.0.11\bin;C:\msys64\mingw64\bin;E:\Jmeter\bin;C:\Users\user\scoop\shims;C:\Users\user\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Groovy\Groovy-3.0.0\bin;C:\Program Files\Java\jdk-11.0.11;C:\Users\user\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.8;C:\Program Files\JetBrains\PyCharm Edu 2019.3.2\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2019.3.3\bin;C:\Program Files\JetBrains\PyCharm 2019.3.3\bin;C:\Users\user\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\user\AppData\Local\Programs\Microsoft VS Code\bin;E:\Training-Codes\golang\protoc-3.18.1-win64\bin;C:\ProgramData\user\GitHubDesktop\bin;C:\Users\user\AppData\Roaming\npm;C:\Users\user\go\bin;c:\php;C:\Users\user\AppData\Roaming\Composer\vendor\bin;;C:\WINDOWS\System32;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.7+7"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testTimeOut" classname="guru.springframework.sfgpetclinic.controllers.IndexControllerTest" time="0">
+    <skipped message="Demo of timeout"/>
+    <system-out><![CDATA[Lets do something here
+]]></system-out>
+  </testcase>
+  <testcase name="testMeOnJava11" classname="guru.springframework.sfgpetclinic.controllers.IndexControllerTest" time="0">
+    <skipped message="Disabled on JRE version: 17.0.7"/>
+  </testcase>
+  <testcase name="testAssumptionTrueAssumptionIsTrue" classname="guru.springframework.sfgpetclinic.controllers.IndexControllerTest" time="0.016"/>
+  <testcase name="testMeOnWindows" classname="guru.springframework.sfgpetclinic.controllers.IndexControllerTest" time="0.001"/>
+  <testcase name="index" classname="guru.springframework.sfgpetclinic.controllers.IndexControllerTest" time="0.082"/>
+  <testcase name="testIfUserFred" classname="guru.springframework.sfgpetclinic.controllers.IndexControllerTest" time="0">
+    <skipped message="Environment variable [USER] does not exist"/>
+  </testcase>
+  <testcase name="testTimeOutPrempt" classname="guru.springframework.sfgpetclinic.controllers.IndexControllerTest" time="0">
+    <skipped message="Demo of timeout"/>
+  </testcase>
+  <testcase name="oupsHandler" classname="guru.springframework.sfgpetclinic.controllers.IndexControllerTest" time="0.001"/>
+  <testcase name="testMeOnJava8" classname="guru.springframework.sfgpetclinic.controllers.IndexControllerTest" time="0">
+    <skipped message="Disabled on JRE version: 17.0.7"/>
+  </testcase>
+  <testcase name="testMeOnMacOS" classname="guru.springframework.sfgpetclinic.controllers.IndexControllerTest" time="0">
+    <skipped message="Disabled on operating system: Windows 10"/>
+  </testcase>
+  <testcase name="testAssumptionTrue" classname="guru.springframework.sfgpetclinic.controllers.IndexControllerTest" time="0">
+    <skipped message="Assumption failed: assumption is not true" type="org.opentest4j.TestAbortedException">org.opentest4j.TestAbortedException: Assumption failed: assumption is not true
+	at guru.springframework.sfgpetclinic.controllers.IndexControllerTest.testAssumptionTrue(IndexControllerTest.java:70)
+</skipped>
+  </testcase>
+  <testcase name="testIfUserJT" classname="guru.springframework.sfgpetclinic.controllers.IndexControllerTest" time="0">
+    <skipped message="Environment variable [USER] does not exist"/>
+  </testcase>
+</testsuite>
